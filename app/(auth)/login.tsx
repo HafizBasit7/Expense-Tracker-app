@@ -8,7 +8,7 @@ import { verticalScale } from '@/utils/styling'
 import { useRouter } from 'expo-router'
 import * as Icons from "phosphor-react-native"
 import React, { useRef, useState } from 'react'
-import { Pressable, StyleSheet, View } from 'react-native'
+import { Alert, Pressable, StyleSheet, View } from 'react-native'
 
 const Login = () => {
     const emailRef = useRef("");
@@ -17,7 +17,13 @@ const Login = () => {
     const router = useRouter();
     
     const handleSubmit = async () => {
-
+        if(!emailRef.current || !passwordRef.current){
+            Alert.alert("Login", "Please fill all the fields");
+            return;
+        }
+        console.log("email: ", emailRef.current);
+        console.log("password: ", passwordRef.current);
+        console.log("good to go");
     }
 
 
@@ -82,7 +88,7 @@ const Login = () => {
                 {/*footer*/}
                     <View style={styles.footer}>
                         <Typo size={15}>Don't have an account ?</Typo>
-                        <Pressable onPress={()=> router.push('/(auth)/register')}>
+                        <Pressable onPress={()=> router.navigate('/(auth)/register')}>
                             <Typo size={15} fontWeight={"700"} color={colors.primary}>Sign Up</Typo>
                         </Pressable>
 
