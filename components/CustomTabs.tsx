@@ -3,6 +3,7 @@ import { verticalScale } from '@/utils/styling';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import * as Icons from "phosphor-react-native";
 import { Platform, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function CustomTabs({ 
     state, 
@@ -50,6 +51,10 @@ export default function CustomTabs({
 
 
   return (
+    <SafeAreaView
+    edges={["bottom"]} // apply safe area only at the bottom
+    style={{ backgroundColor: colors.neutral800 }}
+  >
     <View style={styles.tabbar}>
       {state.routes.map((route, index) => {
         const { options } = descriptors[route.key];
@@ -103,6 +108,7 @@ export default function CustomTabs({
         );
       })}
     </View>
+    </SafeAreaView>
   );
 }
 
