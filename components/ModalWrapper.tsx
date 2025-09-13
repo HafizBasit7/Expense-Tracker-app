@@ -23,6 +23,5 @@ const styles = StyleSheet.create({
         flex: 1,
         paddingTop: isIos ? spacingY._15 : 50,
         paddingBottom: isIos ? spacingY._20 : spacingY._15
-
     }
 })
