@@ -7,6 +7,7 @@ https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescri
 
 📸 App Screenshots
 <table> <tr> <td align="center"> <img src="./screenshots/Home.jpg" width="250" alt="Home Overview"/> <br> <b>Home Overview</b> </td> <td align="center"> <img src="./screenshots/Stats.jpg" width="250" alt="Statistics"/> <br> <b>Statistics</b> </td> <td align="center"> <img src="./screenshots/Wall.jpg" width="250" alt="Wallet"/> <br> <b>Wallet</b> </td> </tr> <tr> <td align="center"> <img src="./screenshots/UpWal.jpg" width="250" alt="Update Wallet"/> <br> <b>Update Wallet</b> </td> <td align="center"> <img src="./screenshots/Expen.jpg" width="250" alt="Add Expense/Income"/> <br> <b>Add Expense/Income</b> </td> <td align="center"> <img src="./screenshots/NewWallet.jpg" width="250" alt="Create a New Wallet"/> <br> <b>Create a New Wallet</b> </td> </tr> <tr> <td align="center"> <img src="./screenshots/Profile.jpg" width="250" alt="Profile"/> <br> <b>Profile</b> </td> <td align="center"> <img src="./screenshots/UpProf.jpg" width="250" alt="Update Profile"/> <br> <b>Update Profile</b> </td> <td align="center"> <img src="./screenshots/Splash.jpg" width="250" alt="Splash"/> <br> <b>Splash</b> </td> </tr> </table>
+
 ✨ Features
 Multi-Wallet Management: Create and manage multiple wallets with individual balances
 
@@ -24,21 +25,15 @@ Responsive Design: Optimized for both iOS and Android devices
 
 🛠️ Tech Stack
 Frontend: React Native with TypeScript
-
 Navigation: Expo Route
-
 State Management: React Context API
-
 Backend: Firebase (Firestore, Authentication)
-
 Charts: React Native Gifted Charts
-
 Image Processing: Cloudinary integration
-
 UI Components: Custom design system with consistent theming
 
 🚀 Getting Started
-bash
+
 # Clone the repository
 git clone https://github.com/HafizBasit7/Expense-Tracker-app
 cd expense-tracker
