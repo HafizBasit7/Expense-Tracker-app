@@ -22,7 +22,6 @@ const Wallet = () => {
     orderBy("created", "desc"),
   ]);
 
-  console.log('wallets', wallets.length);
 
   const getTotalBalance = () => 
     wallets.reduce((total, item)=> {
