@@ -1,12 +1,52 @@
 💰 Finance Tracker App
+
 A comprehensive mobile application built with React Native for tracking income and expenses across multiple wallets with detailed statistics and visualization.
 
-https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black
-https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 
 📸 App Screenshots
-<table> <tr> <td align="center"> <img src="./screenshots/Home.jpg" width="250" alt="Home Overview"/> <br> <b>Home Overview</b> </td> <td align="center"> <img src="./screenshots/Stats.jpg" width="250" alt="Statistics"/> <br> <b>Statistics</b> </td> <td align="center"> <img src="./screenshots/Wall.jpg" width="250" alt="Wallet"/> <br> <b>Wallet</b> </td> </tr> <tr> <td align="center"> <img src="./screenshots/UpWal.jpg" width="250" alt="Update Wallet"/> <br> <b>Update Wallet</b> </td> <td align="center"> <img src="./screenshots/Expen.jpg" width="250" alt="Add Expense/Income"/> <br> <b>Add Expense/Income</b> </td> <td align="center"> <img src="./screenshots/NewWallet.jpg" width="250" alt="Create a New Wallet"/> <br> <b>Create a New Wallet</b> </td> </tr> <tr> <td align="center"> <img src="./screenshots/Profile.jpg" width="250" alt="Profile"/> <br> <b>Profile</b> </td> <td align="center"> <img src="./screenshots/UpProf.jpg" width="250" alt="Update Profile"/> <br> <b>Update Profile</b> </td> <td align="center"> <img src="./screenshots/Splash.jpg" width="250" alt="Splash"/> <br> <b>Splash</b> </td> </tr> </table>
+<table>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Splash.jpg" width="250" alt="Splash Screen"/> <br> <b>Splash Screen</b>
+    </td>
+    <td align="center">
+      <img src="./screenshots/SignUp.jpg" width="250" alt="Sign Up"/> <br> <b>Sign Up</b>
+    </td>
+    <td align="center">
+      <img src="./screenshots/Login.jpg" width="250" alt="Login"/> <br> <b>Login</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Home.jpg" width="250" alt="Home Overview"/> <br> <b>Home Overview</b>
+    </td>
+    <td align="center">
+      <img src="./screenshots/Stats.jpg" width="250" alt="Statistics"/> <br> <b>Statistics</b>
+    </td>
+    <td align="center">
+      <img src="./screenshots/Wall.jpg" width="250" alt="Wallet"/> <br> <b>Wallet</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/UpWal.jpg" width="250" alt="Update Wallet"/> <br> <b>Update Wallet</b>
+    </td>
+    <td align="center">
+      <img src="./screenshots/Expen.jpg" width="250" alt="Add Expense/Income"/> <br> <b>Add Expense/Income</b>
+    </td>
+    <td align="center">
+      <img src="./screenshots/NewWallet.jpg" width="250" alt="Create a New Wallet"/> <br> <b>Create a New Wallet</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Profile.jpg" width="250" alt="Profile"/> <br> <b>Profile</b>
+    </td>
+    <td align="center">
+      <img src="./screenshots/UpProf.jpg" width="250" alt="Update Profile"/> <br> <b>Update Profile</b>
+    </td>
+  </tr>
+</table>
 
 ✨ Features
 Multi-Wallet Management: Create and manage multiple wallets with individual balances
